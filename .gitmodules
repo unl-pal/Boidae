@@ -1,0 +1,12 @@
+[submodule "docker"]
+	path = docker
+	url = https://github.com/boalang/boa-docker
+[submodule "ansible"]
+	path = ansible
+	url = https://github.com/boalang/ansible
+[submodule "compiler"]
+	path = compiler
+	url = https://github.com/boalang/compiler
+[submodule "drupal"]
+	path = drupal
+	url = https://github.com/boalang/drupal
