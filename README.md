@@ -26,12 +26,24 @@ module for more details.
 To run on a cluster, utilize the Ansible scripts.  See the readme in the
 `ansible` module for more details.
 
-## Making a Custom Dataset
+## Processing Custom Data
+
+TODO
+
+### Making a Custom Dataset
 
 For this part of the demo, we will utilize the Docker install.
 
 TODO
 
-## Querying the Custom Dataset
+### Querying the Custom Dataset
+
+TODO
+
+## Extending the Query Language
+
+TODO
+
+## Writing a Custom Analysis
 
 TODO
