@@ -1,21 +1,13 @@
 #!/usr/bin/env sh
 
-cd ansible
-git pull
-cd ..
+MODULES=`grep path .gitmodules | cut -d= -f2 | awk '{$1=$1};1' | awk '{printf("%s ",$0)}'`
 
-cd compiler
-git pull
-cd ..
+for p in $MODULES; do
+    cd $p
+    git pull
+    cd ..
+done
 
-cd docker
-git pull
-cd ..
-
-cd drupal
-git pull
-cd ..
-
-git add ansible compiler docker drupal
+git add $MODULES
 git commit -m 'update modules'
 git push
