@@ -16,5 +16,6 @@ cd drupal
 git pull
 cd ..
 
+git add ansible compiler docker drupal
 git commit -m 'update modules'
 git push
